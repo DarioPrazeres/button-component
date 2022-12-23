@@ -7,10 +7,27 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>
-          Hello World
-        </h1>
-        <Button text='Default' color='primary' />
+        <section className='body-project'>
+          <h1>
+            Buttons
+          </h1>
+          <div className='btn-default'>
+            <p>{`<Button />`}</p> 
+            <p>{`&:hover, &:focus`}</p>
+            <div><Button text='Default' className='btn'/>           
+            </div>
+            <div><Button text='Default' className='btn-def'/>
+            </div>
+          </div>
+          <div className='btn-default'>
+            <p>{`<Button variant ='outline'/>`}</p> 
+            <p>{`&:hover, &:focus`}</p>
+            <div><Button text='Default' className='btn-out'/>           
+            </div>
+            <div><Button text='Default' className='btn-out-hover' hover=''/>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }

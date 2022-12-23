@@ -7,27 +7,14 @@ class Button extends React.Component {
         super(props);
         this.state = {
             textContent: this.props.text,
-            myStyle : {
-                backgroundColor: colorBackground(this.props.color)
-            }
         }
 
     }
 
     render() {
         return (
-            <button style={this.state.myStyle} >{this.state.textContent}</button>
+            <button className={this.props.className} >{this.state.textContent}</button>
         );
     }
-}
-function colorBackground(colorChoose){
-    var cor 
-    switch(colorChoose){
-        case 'default': cor ='silver'; break;
-        case 'primary': cor ='blue'; break;
-        case 'secondary': cor ='yellow'; break;
-        case 'danger': cor ='red'; break;
-    }
-    return cor;
 }
 export default Button;
