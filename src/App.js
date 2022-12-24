@@ -27,6 +27,19 @@ class App extends Component {
             <div><Button text='Default' className='btn-out-hover' hover=''/>
             </div>
           </div>
+          <div className='btn-default'>
+            <p>{`<Button variant ='text'/>`}</p> 
+            <p>{`&:hover, &:focus`}</p>
+            <div><Button text='Default' className='btn-text'/>           
+            </div>
+            <div><Button text='Default' className='btn-text-hover' hover=''/>
+            </div>
+          </div>
+          <div className='btn-disable'>
+            <p>{`<Button variant ='text'/>`}</p> 
+            <div><Button text='Default' className='btn disableShadow'/>           
+            </div>
+          </div>
         </section>
       </div>
     );
