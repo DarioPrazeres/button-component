@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Button from './components/Button'
+import Button from './components/Button';
+import shop from './img/shop.png';
 import './App.css';
 
 
@@ -22,38 +23,38 @@ class App extends Component {
           <div className='btn-default'>
             <p>{`<Button variant ='outline'/>`}</p> 
             <p>{`&:hover, &:focus`}</p>
-            <div><Button text='Default' className='btn'/>           
+            <div><Button text='Default' className='btn btn-out-primary'/>           
             </div>
-            <div><Button text='Default' className='btn' hover=''/>
+            <div><Button text='Default' className='btn btn-out-primary-hover'/>
             </div>
           </div>
           <div className='btn-default'>
             <p>{`<Button variant ='text'/>`}</p> 
             <p>{`&:hover, &:focus`}</p>
-            <div><Button text='Default' className='btn'/>           
+            <div><Button text='Default' className='btn btn-text btn-text-primary'/>           
             </div>
-            <div><Button text='Default' className='btn' hover=''/>
+            <div><Button text='Default' className='btn btn-text btn-text-primary-hover'/>
             </div>
           </div>
           <div className='btn-disable'>
             <p>{`<Button disableShodaw/>`}</p> 
-            <div><Button text='Default' className='btn disableShadow'/>           
+            <div><Button text='Default' className='btn btn-primary disableShadow disable'/>           
             </div>
           </div>
           <div className='btn-default'>
             <p>{`<Buton disabled />`}</p> 
             <p>{`<Button variant ='text' disabled/>`}</p>
-            <div><Button text='Default' className='btn'/>           
+            <div><Button text='Default' className='btn' disabled='disabled'/>           
             </div>
-            <div><Button text='Default' className='btn' hover=''/>
+            <div><Button text='Default' className='btn btn-text' disabled='disabled'/>
             </div>
           </div>
           <div className='btn-default'>
             <p>{`<Button startIcon = "local_grocery_strore"/>`}</p> 
             <p>{`<Button endIcon = "local_grocery_strore"/>`}</p>
-            <div><Button text='Default' className='btn'/>           
+            <div><Button startIcon={shop} text='Default' className='btn btn-primary'/>           
             </div>
-            <div><Button text='Default' className='btn' hover=''/>
+            <div><Button endIcon={shop} text='Default' className='btn btn-primary' />
             </div>
           </div>
           <div className='section-btn-size'>

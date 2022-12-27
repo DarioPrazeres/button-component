@@ -7,7 +7,6 @@
   display: flex;
   font-weight: 100;
   font-family: 'Noto Sans JP';
-  border: solid rgb(8, 8, 8) 1px;
 }
 .body-project{
   margin-top: 100px;
@@ -23,10 +22,12 @@ p{
   font-size: 16px;
   margin: 4px 0px 5px 0px;
 }
-.btn-default{
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(2, 250px);
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
 }
 /*-----------------Button Library --------------*/
 .btn{
@@ -90,14 +91,82 @@ p{
   width: 93px;
   height: 42px;
 }
+/*---------------Outline Button Style ---------*/
+.btn-out,
+.btn-out-primary,
+.btn-out-primary-hover{
+  background: none;
+  box-shadow: none;
+  outline: 1px solid #3f3f3f;
+  color: #3f3f3f;
+}
+.btn-out:hover,
+.btn-out-hover{
+  background: #aeaeae;
+}
+/*Primary outline*/
+.btn-out-primary{
+  outline: 1px solid #3d5afe;
+  color: #3d5afe;
+}
+.btn-out-primary:hover,
+.btn-out-primary-hover{
+  outline: 1px solid #3d5afe;
+  color: #3d5afe;
+  background: rgb(41, 98, 255, 0.2);
+}
+/*Danger outline*/
+.btn-out-danger{
+  outline: 1px solid #d32f2f;
+  color: #d32f2f;
+}
+.btn-out-danger:hover{
+  background: #9a0004;
+}
+/*Secondary outline*/
+.btn-out-secondary{
+  outline: 1px solid #455a64;
+  color: #455a64;
+}
+.btn-out-secondary:hover{
+  background: #1c313a;
+}
+/*----------------Text Syle Button -------------*/
+.btn-text{
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+.btn-text-primary{
+  color: #3d5afe;
+}
+.btn-text-primary:hover,
+.btn-text-primary-hover{
+  color: #3d5afe;
+  background: rgb(41, 98, 255, 0.2);
+}
+/*-------STyle Disable -------------------*/ 
+.disableShadow{
+  box-shadow: none;
+}
+button:disabled{
+  color: #939393;
+  box-shadow: none;
+}
 /*-------------- The First and principal class of button ----------------*/
 .section-btn-default{
   display: grid;
   grid-template-columns:  repeat(4, 300px);
-  grid-template-rows: auto 70px 70px;
+  grid-template-rows: 50px 70px 70px;
 }
 .section-btn-size{
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: auto 70px;
+}
+.btn-default{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2,300px);
   grid-template-rows: auto 70px;
 }
