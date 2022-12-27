@@ -170,3 +170,16 @@ button:disabled{
   grid-template-columns: repeat(2,300px);
   grid-template-rows: auto 70px;
 }
+/*-----------Fotter Style ----------------*/
+footer {
+  margin-top: 50px;
+}
+footer p {
+  text-align: center;
+  color: rgb(144, 142, 142);
+  font-size: 16px;
+}
+
+footer a {
+  color: rgb(103, 102, 102);
+}

@@ -91,6 +91,9 @@ class App extends Component {
             </div>
           </div>
         </section>
+        <footer>
+          <p>Created by <a href="https://github.com/DarioPrazeres">Dario Prazeres</a> -DevChallenges.io</p> 
+        </footer>
       </div>
     );
   }
