@@ -9,7 +9,7 @@
   font-family: 'Montserrat';
 }
 .body-project{
-  margin-top: 100px;
+  margin-top: 50px;
   width: 70%;
   align-self: center;
 }
@@ -162,17 +162,21 @@ button:disabled{
 .section-btn-size{
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  grid-template-rows: auto 70px;
 }
 .btn-default{
-  margin-top: 40px;
+  margin-top: 15px;
   display: grid;
-  grid-template-columns: repeat(2,300px);
-  grid-template-rows: auto 70px;
+  grid-template-columns: repeat(2, 300px);
+}
+.btn-default-icon{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: 50px 80px;
 }
 /*-----------Fotter Style ----------------*/
 footer {
-  margin-top: 50px;
+  margin-top: 28px;
 }
 footer p {
   text-align: center;

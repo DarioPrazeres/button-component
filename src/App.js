@@ -49,7 +49,7 @@ class App extends Component {
             <div><Button text='Default' className='btn btn-text' disabled='disabled'/>
             </div>
           </div>
-          <div className='btn-default'>
+          <div className='btn-default-icon'>
             <p>{`<Button startIcon = "local_grocery_strore"/>`}</p> 
             <p>{`<Button endIcon = "local_grocery_strore"/>`}</p>
             <div><Button startIcon={shop} text='Default' className='btn btn-primary'/>           
