@@ -16,11 +16,10 @@
 h1{
   font-size: 36px;
   font-weight: 400;
-  font-family: 'Poppins';
 }
 p{
   font-size: 16px;
-  margin: 4px 0px 5px 0px;
+  margin: 7px 0px 7px 0px;
 }
 button{
   display: flex;
@@ -160,16 +159,19 @@ button:disabled{
   grid-template-rows: 50px 70px 70px;
 }
 .section-btn-size{
+  padding: 5px 0px 5px 0px;
   display: grid;
   grid-template-columns: repeat(3, 300px);
 }
 .btn-default{
-  margin-top: 15px;
+  margin: 10px 0px 10px 0px;
+  padding: 5px 0px 5px 0px;
   display: grid;
   grid-template-columns: repeat(2, 300px);
 }
 .btn-default-icon{
-  margin-top: 15px;
+  margin: 10px 0px 10px 0px;
+  padding: 5px 0px 5px 0px;
   display: grid;
   grid-template-columns: repeat(2, 300px);
   grid-template-rows: 50px 80px;
