@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/DarioPrazeres/button-component/blob/main/img/banner.png)
+![screenshot](https://github.com/DarioPrazeres/button-component/blob/main/banner.png)
 
 It is a litle project where the user sees the diferent way to do a button and the litle applications about it. It is just to help future project in design, it will be easiest and fastest do a button.
 
